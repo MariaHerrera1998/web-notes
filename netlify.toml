@@ -2,14 +2,16 @@
 
 command="npm run build"
 
-publish=""
+publish="/build"
+
+base="/"
 
 [[redirects]]
-  from = "/"
+  from = "/*"
   to = "/allnotas"
   query = {path = ":path"}
 
   [[redirects]]
-  from = "/"
+  from = "/*"
   to = "notas"
   query = {path = ":path"}
