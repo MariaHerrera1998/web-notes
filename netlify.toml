@@ -8,10 +8,6 @@ base="/"
 
 [[redirects]]
   from = "/*"
-  to = "/allnotas"
-  query = {path = ":path"}
+  to = "/index.html"
+  status = 200
 
-  [[redirects]]
-  from = "/*"
-  to = "notas"
-  query = {path = ":path"}
