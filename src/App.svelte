@@ -290,15 +290,15 @@
   .menu ul {
       margin: 0px;
   }
-  .menu ul {
+  Link {
       display: block;
       line-height: 40px;
       transition: 0.6s;
   }
-  .menu ul:hover {
+  Link:hover {
       background: #936f97bb;
   }
-  .menu ul {
+  Link {
       color: #fff;
       text-decoration: none;
       padding: 0 1em;
@@ -320,7 +320,7 @@
       .menu ul {
           height: 40px;
       }
-      .menu ul {
+      Link {
           display: inline-block;
       }
   }
