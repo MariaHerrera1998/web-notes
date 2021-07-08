@@ -5,16 +5,16 @@ command="npm run build"
 publish=""
 
 [[redirects]]
-  from = "/"
-  to = "allnotas"
+  from = "https://silly-hugle-b3671e.netlify.app/"
+  to = "https://silly-hugle-b3671e.netlify.app/allnotas"
   status = 301
   force = false
   query = {path = ":path"}
   conditions = {Language = ["en"], Role = ["admin"]}
 
   [[redirects]]
-  from = "/"
-  to = "notas"
+  from = "https://silly-hugle-b3671e.netlify.app/"
+  to = "https://silly-hugle-b3671e.netlify.app/notas"
   status = 301
   force = false
   query = {path = ":path"}
