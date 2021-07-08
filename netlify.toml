@@ -6,7 +6,7 @@ publish=""
 
 [[redirects]]
   from = "https://silly-hugle-b3671e.netlify.app/"
-  to = "https://silly-hugle-b3671e.netlify.app/allnotas"
+  to = "/allnotas"
   status = 301
   force = false
   query = {path = ":path"}
@@ -14,7 +14,7 @@ publish=""
 
   [[redirects]]
   from = "https://silly-hugle-b3671e.netlify.app/"
-  to = "https://silly-hugle-b3671e.netlify.app/notas"
+  to = "notas"
   status = 301
   force = false
   query = {path = ":path"}
