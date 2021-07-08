@@ -290,21 +290,21 @@
   .menu ul {
       margin: 0px;
   }
-  .menu ul li {
+  .menu ul {
       display: block;
       line-height: 40px;
       transition: 0.6s;
   }
-  .menu ul li:hover {
+  .menu ul:hover {
       background: #936f97bb;
   }
-  .menu ul li a {
+  .menu ul {
       color: #fff;
       text-decoration: none;
       padding: 0 1em;
       transition: 0.6s;
   }
-  .menu ul li a:hover {
+  .menu ul :hover {
       font-size: 17px;
   }
   @media screen and (min-width: 768px) {
@@ -320,7 +320,7 @@
       .menu ul {
           height: 40px;
       }
-      .menu ul li {
+      .menu ul {
           display: inline-block;
       }
   }
