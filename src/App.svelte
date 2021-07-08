@@ -48,8 +48,8 @@
       </header>
       <nav class="menu">
           <ul>
-              <li><a href="allnotas" id="btnMisPost">Todas las Notas</a></li>
-              <li><a href="notas" id="btnModalPost">Agregar Nota +</a></li>
+              <Link to="allnotas">Todas las Notas</Link>
+              <Link to="notas">Agregar Nota +</Link>
           </ul>
       </nav>
   {:else}

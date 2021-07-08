@@ -12,6 +12,7 @@
             .createUserWithEmailAndPassword(email, password)
             .then((userCredential) => {
                 var user = userCredential.user;
+                location.href="/"
             })
             .catch((error) => {
                 var errorCode = error.code;
