@@ -3,3 +3,19 @@
 command="npm run build"
 
 publish=""
+
+[[redirects]]
+  from = "/"
+  to = "allnotas"
+  status = 301
+  force = false
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Role = ["admin"]}
+
+  [[redirects]]
+  from = "/"
+  to = "notas"
+  status = 301
+  force = false
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
