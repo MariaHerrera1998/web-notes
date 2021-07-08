@@ -1,3 +1,10 @@
+<svelte:head>
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+  />
+</svelte:head>
+
 <script>
   import "./firebase";
   import { initAuth } from "./auth";
@@ -22,15 +29,10 @@
       }
   };
 
-
+  import Button from '@smui/button';
 </script>
 
-<svelte:head>
-  <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-  />
-</svelte:head>
+
 <Router>
   {#if $user}
       <header class="headerppal">
@@ -290,20 +292,6 @@
   .menu ul {
       margin: 0px;
   }
-  Link {
-      display: block;
-      line-height: 40px;
-      transition: 0.6s;
-  }
-  Link:hover {
-      background: #936f97bb;
-  }
-  Link {
-      color: #fff;
-      text-decoration: none;
-      padding: 0 1em;
-      transition: 0.6s;
-  }
   .menu ul :hover {
       font-size: 17px;
   }
@@ -320,7 +308,7 @@
       .menu ul {
           height: 40px;
       }
-      Link {
+      .menu ul {
           display: inline-block;
       }
   }
