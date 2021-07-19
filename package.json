@@ -26,13 +26,16 @@
     "tailwindcss": "^2.2.4"
   },
   "dependencies": {
+    "@mdi/js": "^5.9.55",
     "@smui/button": "^4.2.0",
     "@smui/card": "^4.2.0",
     "bootstrap": "^5.0.2",
     "sirv-cli": "^1.0.0",
     "svelte-material-ui": "^4.2.0",
+    "svelte-materialify": "^0.3.11",
     "svelte-navigator": "^3.1.5",
     "svelte-routing": "^1.6.0",
-    "sveltestrap": "^5.4.0"
+    "sveltestrap": "^5.4.0",
+    "sweetalert2": "^11.0.18"
   }
 }
